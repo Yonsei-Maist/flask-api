@@ -13,7 +13,7 @@ DB_URL = f"mysql+mysqlconnector://{db['user']}:{db['password']}@{db['host']}:{db
 
 class Config(object):
     VERSION = 0.1
-    SECRET_KEY = b'\x84:\xfdJi\xbc\xbe%\xf2%ZIc3\x06|'
+    JWT_SECRET_KEY = sys.argv[1]
     CIPHER = AESCipher(sys.argv[1])
 
     @staticmethod

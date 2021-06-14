@@ -5,5 +5,6 @@ fail = {
     "result": "fail"
 }
 
+
 def error_response_message(message):
     return dict(fail, **{"message": message}), 500

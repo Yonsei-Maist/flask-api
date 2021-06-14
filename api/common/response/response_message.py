@@ -5,5 +5,6 @@ success = {
     "result": "success"
 }
 
+
 def response_message(data=None):
-    return dict(success, **{"data": data}),200
+    return dict(success, **{"data": data}), 200

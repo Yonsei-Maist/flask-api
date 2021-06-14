@@ -11,4 +11,4 @@ def error_handle(app):
     # custom_error
     @app.errorhadler(SampleTestError)
     def handle_exception(e):
-        return error_response_message({'message':e.message, 'errorMessage' : e.error_message})
+        return error_response_message({'message': e.message, 'errorMessage': e.error_message})
