@@ -19,7 +19,7 @@ flask-cors 3.0.10 ~
 flask_marshmallow 0.14.0 ~
 flask_migrate 3.0.1 ~
 flask_sqlalchemy 2.5.1 ~
-flask_jwt 0.3.2 ~
+flask-jwt-extended 4.2.1 ~
 marshmallow-sqlalchemy 0.26.0 ~
 pycryptodome==3.4.3
 ```
