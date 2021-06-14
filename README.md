@@ -1,4 +1,4 @@
-# UROFlow AI Server
+# Flask API
 
 Basic MAIST Flask API
 
@@ -27,11 +27,6 @@ pycryptodome==3.4.3
 ## Install
 ```
 pip install -U git+https://git@github.com/Yonsei-Maist/maist-flask-api-uroflow.git
-```
-
-## Install Custom Library
-```
-pip install -U git+https://git@github.com/Yonsei-Maist/maist-model-core.git
 ```
 
 ## Run
