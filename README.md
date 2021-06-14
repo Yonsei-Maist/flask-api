@@ -26,7 +26,7 @@ pycryptodome==3.4.3
 
 ## Install
 ```
-pip install -U git+https://git@github.com/Yonsei-Maist/maist-flask-api-uroflow.git
+git clone https://github.com/Yonsei-Maist/flask-api.git
 ```
 
 ## Run
